@@ -4412,6 +4412,9 @@ MetroTRK/mem_TRK.c:
 	.init       start:0x80003244 end:0x80003298
 	.text       start:0x80328F88 end:0x8032904C
 
+MetroTRK/__exception.s:
+	.init       start:0x80003298 end:0x800051CC
+
 MetroTRK/targimpl.c:
 	.text       start:0x8032904C end:0x8032A628
 	.rodata     start:0x803B93C0 end:0x803B9410
